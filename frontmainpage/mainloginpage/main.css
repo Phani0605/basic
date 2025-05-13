@@ -1,0 +1,35 @@
+.Continue{
+    /* margin: 30px; 
+    margin-left: 10rem; */
+    padding: 10px 20px;
+    color: white; 
+    background-color: rgb(66, 7, 217);
+    font-size: medium;
+}
+
+.input{
+    color:rgb(70, 8, 228);
+    font-weight: bold;
+}
+
+.body{
+    padding: 10rem;
+    padding-left: 60rem;
+    text-align: center;
+    background-image: url('../../images/premium_photo-1701646600168-5d599b350398.jpg');
+    font-size: x-large;
+}
+
+.fp{
+    padding-left: 10px;
+    color: black;
+}
+
+/* .fu{
+    color: black;
+} */
+
+.answer{
+    margin-top: 10px;
+}
+

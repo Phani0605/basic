@@ -1,10 +1,11 @@
 <html>
     <head>
-        Candidate Details
+        <link href="applicationpage.css" rel="stylesheet"/>
     </head>
-    <body>
+    <body class="body">
+        <h2>Candidate Details</h2>
          <table>
-            <tr> <br><br>
+            <tr> 
                 <td> Enter Candidate Name </td>
                 <td> : </td>
                 <td> <input type="text" placeholder="Enter Your Name" value="" required> <br><br> </td>               
@@ -12,20 +13,20 @@
             <tr>
                 <td> Choose Course </td>
                 <td> : </td>
-                <td>
-                    <input type="checkbox" name="Course1" value="html" checked disabled/>HTML
-                    <input type="checkbox" name="Course1" value="css" checked />CSS
-                    <input type="checkbox" name="Course1" value="js" />Java Script
-                    <input type="checkbox" name="Course1" value="ts"/>Type Script
-                    <br><br>
-                </td>
+                    <td class="options">
+                        <label><input type="checkbox" name="Course1" value="html" checked disabled/>HTML</label>
+                        <input type="checkbox" name="Course1" value="css" checked />CSS
+                        <input type="checkbox" name="Course1" value="js" />Java Script
+                        <input type="checkbox" name="Course1" value="ts" />Type Script
+                        <br><br>
+                    </td>
             </tr>
             <tr>
                 <td> Gender </td>
                 <td> : </td>
-                <td> 
-                    <input type="radio" value="M" name="Gender" required/>Male
-                    <input type="radio" value="F" name="Gender"/>Femlae
+                <td class="options"> 
+                    <label><input type="radio" value="M" name="Gender" required/>Male</label>
+                    <input type="radio" value="F" name="Gender"/>Female
                     <input type="radio" value="G" name="Gender"/>Gay <br><br>
                 </td>
             </tr>
@@ -52,6 +53,9 @@
             </tr>     
          </table>
 
-        <button>Submit Application</button>
+        <button class="Submit">Submit Application</button>
+        <button class="Cancel" onclick="location.href='../frontmainpage/mainloginpage/main.html'">Cancel Application</button>
+
+        
     </body>
 </html>
