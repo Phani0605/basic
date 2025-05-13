@@ -1,0 +1,17 @@
+.button{
+    color: white; 
+    background-color: rgb(66, 7, 217);
+    font-size: medium;
+}
+
+.body{
+    text-align: center;
+    /* padding-top: 100px; */
+    padding: 15rem;
+    background-image: url('../images/premium_photo-1701646600168-5d599b350398.jpg');
+}
+
+.message{
+    font-size: 500%;
+    font-weight: bold;
+}

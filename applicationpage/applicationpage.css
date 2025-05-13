@@ -14,18 +14,11 @@ td{
 }
 
 
-.Submit{
+.button{
     padding: 10px 20px;
     color: white; 
     background-color: rgb(66, 7, 217);
     font-size: medium; 
-}
-
-.Cancel{
-    padding: 10px 20px;
-    color: white; 
-    background-color: rgb(66, 7, 217);
-    font-size: medium;
 }
 
 .options{
